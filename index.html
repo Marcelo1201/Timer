@@ -4,13 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cronôgrama</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css ">
+    <script src="cron.js"></script>
+    <title>Cronômetro</title>
 </head>
 <body>
     <header class="cabecalho">
-        <a href="">Redes Sociais</a>
-        <a href="https://github.com/Marcelo1201">repositories</a>
-        <a href="">about me</a>
+        <a class="cabecalho-botao" href="#">social media</a>
+        <a class="cabecalho-botao" target="_blank" href="https://github.com/Marcelo1201">repositories</a>
+        <a class="cabecalho-botao" href="#">about me</a>
     </header>
+
+    <main class="conteudo">
+        <p class="timer">00:00</p>
+        <div class="conteudo-botoes">
+            <button class="botao start">start</button>
+            <button class="botao stop">stop</button>
+            <button class="botao reset">reset</button>
+        </div>
+    </main>
 </body>
 </html>

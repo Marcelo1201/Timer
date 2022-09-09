@@ -1,0 +1,81 @@
+:root{
+    --cor-de-fundo: #ff8000;
+    --cor-cabecalho: #f3f3f3ff;
+    --fonte-principal: Roboto;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    height: 100vh;
+}
+
+.cabecalho{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.cabecalho-botao{
+    color: var(--cor-cabecalho);
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.cabecalho-botao:hover{
+    transform: scale(1.1);
+    color: orange;
+}
+
+.conteudo{
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.timer{
+    margin: 1em 0;
+    font-size: 50px;
+}
+
+.botao{
+    padding: 0.5em 1em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 0.5em;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.start{
+    background-color: #007800;
+}
+
+.start:active{
+    background-color: #006600;
+    box-shadow: 5px 5px 10px #1e1e1e;
+}
+
+.stop{
+    background-color: #b70000;
+}
+
+.stop:active{
+    background-color: #9b0000;
+    box-shadow: 5px 5px 10px #1e1e1e;
+}
+
+.reset{
+    background-color: #caca00;
+}
+
+.reset:active{
+    background-color: #b0b000;
+    box-shadow: 5px 5px 10px #1e1e1e;
+}
