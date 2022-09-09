@@ -79,3 +79,27 @@ body{
     background-color: #b0b000;
     box-shadow: 5px 5px 10px #1e1e1e;
 }
+
+.rodape{
+    background-image: url('fundo-cinza.jpg');
+    width: 100%;
+    height: 200px;
+    color: var(--cor-cabecalho);
+}
+
+#about{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.paragrafo-rodape{
+    width: 50%;
+    text-align: center;
+}
+
+.copy{
+    justify-content: space-between;
+}

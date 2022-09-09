@@ -9,23 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css ">
-    <script src="cron.js"></script>
     <title>Cronômetro</title>
 </head>
 <body>
     <header class="cabecalho">
         <a class="cabecalho-botao" href="#">social media</a>
         <a class="cabecalho-botao" target="_blank" href="https://github.com/Marcelo1201">repositories</a>
-        <a class="cabecalho-botao" href="#">about me</a>
+        <a class="cabecalho-botao" href="#about">about me</a>
     </header>
 
     <main class="conteudo">
-        <p class="timer">00:00</p>
+        <h1 class="timer" id="cron">00:00:00</h1>
         <div class="conteudo-botoes">
-            <button class="botao start">start</button>
-            <button class="botao stop">stop</button>
-            <button class="botao reset">reset</button>
+            <button class="botao start" onclick="start()">start</button>
+            <button class="botao stop" onclick="stop()">stop</button>
+            <button class="botao reset" onclick="reset()">reset</button>
         </div>
     </main>
+
+    <footer class="rodape">
+        <scroll-page id="about">
+            <p class="paragrafo-rodape">Este site fictício foi criado totalmente por mim, apenas para fins práticos, utilizando apenas Js, HTML & CSS. Um cronômetro simples que possui alarme para realizar o método Pomodoro. Após 1 hora, ele toca para entrar ao intervalo de 15 minutos.</p>
+            <p class="copy">&copy; Marcelo Giacometti 2022</p>
+        </scroll-page>
+    </footer>
+
+    <script src="cron.js"></script>
 </body>
 </html>
