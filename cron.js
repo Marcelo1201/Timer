@@ -13,7 +13,7 @@ function digits(number){
 
 function start(){
     timer();
-    interval = setInterval(timer, 1000);
+    interval = setInterval(timer, 0.1);
     document.querySelector('.start').disabled = true;
 }
 

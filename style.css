@@ -103,3 +103,7 @@ body{
 .copy{
     justify-content: space-between;
 }
+
+.support{
+    color: var(--cor-cabecalho);
+}
