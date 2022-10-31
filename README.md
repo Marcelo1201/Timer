@@ -15,7 +15,7 @@ Um projeto desenvolvido para praticar a técnica Pomodoro e aprimorar minhas té
 - HTML
 - CSS
 
-# Implantação
+## Implantação
 - Netlify
 
 # Autor
